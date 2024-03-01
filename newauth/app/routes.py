@@ -14,7 +14,7 @@ from langchain.chains import LLMChain
 
 from app import auth, models, schemas, passhash
 from app.db import get_db
-from ai.prompt import generate_context, qa_template
+from app.prompt import generate_context, qa_template
 
 from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
